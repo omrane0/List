@@ -1,0 +1,9 @@
+thislist = ["apple", "banana", "cherry"]
+del thislist
+print(thislist) #this will cause an error because you have succsesfully deleted "thislist".
+
+
+Traceback (most recent call last):
+  File "demo_list_del2.py", line 3, in <module>
+    print(thislist) #this will cause an error because you have succsesfully deleted "thislist".
+NameError: name 'thislist' is not defined
